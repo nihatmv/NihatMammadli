@@ -1,8 +1,9 @@
 body {
   background-color: rgba(13, 13, 13, 0.971);
-  margin-bottom: 200px;
+  margin-bottom: 50px;
   /* width: 100vw;
   height: 100vh; */
+  overflow-x: hidden;
 }
 hr {
   border: 1px solid rgb(117, 117, 117);
@@ -15,6 +16,7 @@ hr {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-right: 20px;
 }
 .hi-script {
   color: white;
@@ -158,10 +160,11 @@ hr {
   right: 0;
   height: 55px;
   display: flex;
+  justify-content: space-between;
   z-index: 1000;
 }
 .left-navbar {
-  margin-right: 450px;
+  /* margin-right: 450px; */
   margin-left: 80px;
   display: flex;
   align-items: center;
@@ -178,18 +181,8 @@ hr {
 .right-navbar {
   display: flex;
   align-items: center;
-}
-.about-me-script {
-  color: rgb(117, 117, 117);
-  margin: 0 35px 0 0;
-  font-weight: 500;
-  font-family: Arial, Helvetica, sans-serif;
-  cursor: pointer;
-
-  transition: color 0.5s ease;
-}
-.about-me-script:hover {
-  color: rgb(239, 238, 238);
+  justify-content: space-around;
+  margin-right: 200px;
 }
 
 .projects-script {
