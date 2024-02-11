@@ -1,0 +1,228 @@
+body {
+  background-color: rgba(13, 13, 13, 0.971);
+  margin-bottom: 1000px;
+}
+hr {
+  border: 1px solid rgb(117, 117, 117);
+
+  width: 1000px;
+  height: 0.5px;
+}
+
+.hi-script {
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 30px;
+  margin-left: 400px;
+  margin-top: 280px;
+}
+.arrow {
+  margin-left: 100px;
+  width: 55px;
+  margin-top: 230px;
+  cursor: pointer;
+  transition: transform 0.6s ease;
+}
+.arrow:hover {
+  transform: scale(1.5);
+}
+.basic-info-about-me {
+  margin-right: 160px;
+  width: 590px;
+}
+.three-section {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 70px;
+}
+.About-me {
+  display: flex;
+  margin-top: 320px;
+  margin-left: 550px;
+}
+
+.info-script {
+  color: white;
+  width: 380px;
+  font-size: 23px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 33px;
+  margin-right: 30px;
+}
+.image-of-about-me {
+  position: absolute;
+  display: none;
+  width: 250px;
+  height: 400px;
+  z-index: 2;
+  cursor: pointer;
+  opacity: 0;
+  transition: transform, opacity, 0.7s;
+}
+.image-of-about-me:hover {
+  opacity: 1;
+}
+.about-me:hover .image-of-about-me {
+  display: flex;
+}
+
+.projects {
+  background-color: rgb(143, 143, 143);
+  color: black;
+  border: 1px solid black;
+  width: 250px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+.image-of-projects {
+  position: absolute;
+  display: none;
+  width: 250px;
+  height: 400px;
+  z-index: 2;
+  cursor: pointer;
+  opacity: 0;
+  transition: transform, opacity, 0.7s;
+}
+.image-of-projects:hover {
+  opacity: 1;
+}
+.projects:hover .image-of-projects {
+  display: flex;
+}
+.social-media {
+  background-color: rgb(143, 143, 143);
+  color: black;
+  border: 1px solid black;
+  width: 250px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+.image-of-social-media {
+  position: absolute;
+  display: none;
+  width: 250px;
+  height: 400px;
+  z-index: 2;
+  cursor: pointer;
+  opacity: 0;
+  transition: transform, opacity, 0.7s;
+}
+.image-of-social-media:hover {
+  opacity: 1;
+}
+.social-media:hover .image-of-social-media {
+  display: flex;
+}
+.about-Nihat {
+  margin-top: 400px;
+  margin-left: 50px;
+  width: 500px;
+}
+.about-projects {
+  display: flex;
+  margin-top: 350px;
+  transform: translateY(-200px);
+}
+.social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 100px;
+  background-color: #495057;
+  color: #fff;
+  border-radius: 100%;
+  font-size: 1.5rem;
+  margin-right: 1.5rem;
+}
+.navbar {
+  background-color: rgb(12, 12, 12);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 55px;
+  display: flex;
+  z-index: 1000;
+}
+.left-navbar {
+  margin-right: 450px;
+  margin-left: 80px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  opacity: 1;
+
+  transition: opacity 0.4s ease;
+}
+
+.left-navbar:hover {
+  opacity: 0.5;
+}
+
+.right-navbar {
+  display: flex;
+  align-items: center;
+}
+.about-me-script {
+  color: rgb(117, 117, 117);
+  margin: 0 35px 0 0;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+
+  transition: color 0.5s ease;
+}
+.about-me-script:hover {
+  color: rgb(239, 238, 238);
+}
+
+.projects-script {
+  color: rgb(117, 117, 117);
+  margin: 0 35px 0 0;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+
+  transition: color 0.5s ease;
+}
+.projects-script:hover {
+  color: rgb(239, 238, 238);
+}
+.social-media-script {
+  color: rgb(117, 117, 117);
+  margin: 0;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+
+  transition: color 0.5s ease;
+}
+.social-media-script:hover {
+  color: rgb(239, 238, 238);
+}
+.Nihat-Mammadov-script {
+  color: white;
+  margin: 0 10px 0 0;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Front-End-Developer-script {
+  color: rgb(117, 117, 117);
+  margin: 0;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.my-projects-script {
+  margin: 0 0 0 60px;
+  color: rgb(117, 117, 117);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
