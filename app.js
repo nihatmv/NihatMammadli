@@ -4,12 +4,12 @@ const projects = document.querySelector(".projects-script");
 const socialMedia = document.querySelector(".social-media-script");
 const leftNavbar = document.querySelector(".left-navbar");
 
-aboutMe.addEventListener("click", (e) => {
-  window.scrollTo({
-    top: 360,
-    behavior: "smooth",
-  });
-});
+// aboutMe.addEventListener("click", (e) => {
+//   window.scrollTo({
+//     top: 360,
+//     behavior: "smooth",
+//   });
+// });
 
 projects.addEventListener("click", (e) => {
   window.scrollTo({
