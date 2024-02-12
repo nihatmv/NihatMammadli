@@ -41,6 +41,7 @@ hr {
   align-items: center;
   justify-content: center;
   margin-top: 200px;
+  width: 100vw;
 }
 .three-section {
   display: flex;
@@ -140,8 +141,8 @@ hr {
 .about-projects {
   display: flex;
   align-items: center;
-  margin-top: 150px;
-  transform: translateY(-50px);
+  margin-top: 100px;
+  transform: translateY(-40px);
 }
 .social-icon {
   display: inline-flex;
