@@ -1,8 +1,6 @@
 body {
   background-color: rgba(13, 13, 13, 0.971);
   margin-bottom: 50px;
-  /* width: 100vw;
-  height: 100vh; */
   overflow-x: hidden;
 }
 hr {
@@ -169,7 +167,6 @@ hr {
   z-index: 1000;
 }
 .left-navbar {
-  /* margin-right: 450px; */
   margin-left: 80px;
   display: flex;
   align-items: center;
